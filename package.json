@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "check": "biome check --unsafe .",
-    "check:write": "pnpm check --write"
+    "check": "biome check --unsafe --write ."
   },
   "volta": {
     "node": "20.16.0"
