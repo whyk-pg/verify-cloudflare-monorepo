@@ -15,4 +15,8 @@
 - [ ] クライアントの前段にプロキシを配置してコンテンツをキャッシュする
 
 ## 参考資料
-- 特になし
+- [Hono Service bindings入門](https://zenn.dev/sui_water/articles/db763fe80216a8)
+- [Service Binding | Honoを使ってCloudflare Multi Workers環境を作る](https://zenn.dev/monica/articles/feff72caee5e6b#service-binding)
+- [Service bindings - Runtime APIs · Cloudflare Workers docs](https://developers.cloudflare.com/workers/runtime-apis/bindings/service-bindings/)
+- [Cloudflare PagesでService Bindingsを設定するときの注意](https://zenn.dev/sushichaaaan/articles/5e6a03f29d7d3b)
+- [（実践Cloudflare Workers）Service bindingsの使い方](https://zenn.dev/moutend/articles/f9409d43724da5)
