@@ -1,43 +1,79 @@
-# Welcome to Remix + Cloudflare Workers!
+# Welcome to React Router!
 
-- 📖 [Remix docs](https://remix.run/docs)
-- 📖 [Remix Cloudflare docs](https://remix.run/guides/vite#cloudflare)
+A modern, production-ready template for building full-stack React applications using React Router.
 
-## Development
+## Features
 
-Run the dev server:
+- 🚀 Server-side rendering
+- ⚡️ Hot Module Replacement (HMR)
+- 📦 Asset bundling and optimization
+- 🔄 Data loading and mutations
+- 🔒 TypeScript by default
+- 🎉 TailwindCSS for styling
+- 📖 [React Router docs](https://reactrouter.com/)
 
-```sh
+## Getting Started
+
+### Installation
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+### Development
+
+Start the development server with HMR:
+
+```bash
 npm run dev
 ```
 
-To run Wrangler:
+Your application will be available at `http://localhost:5173`.
 
-```sh
+## Previewing the Production Build
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Building for Production
+
+Create a production build:
+
+```bash
 npm run build
-npm start
 ```
-
-## Typegen
-
-Generate types for your Cloudflare bindings in `wrangler.toml`:
-
-```sh
-npm run typegen
-```
-
-You will need to rerun typegen whenever you make changes to `wrangler.toml`.
 
 ## Deployment
 
-If you don't already have an account, then [create a cloudflare account here](https://dash.cloudflare.com/sign-up) and after verifying your email address with Cloudflare, go to your dashboard and set up your free custom Cloudflare Workers subdomain.
+Deployment is done using the Wrangler CLI.
 
-Once that's done, you should be able to deploy your app:
+To build and deploy directly to production:
 
 ```sh
 npm run deploy
 ```
 
+To deploy a preview URL:
+
+```sh
+npx wrangler versions upload
+```
+
+You can then promote a version to production after verification or roll it out progressively.
+
+```sh
+npx wrangler versions deploy
+```
+
 ## Styling
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+
+---
+
+Built with ❤️ using React Router.

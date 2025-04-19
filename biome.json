@@ -3,6 +3,9 @@
   "organizeImports": {
     "enabled": true
   },
+  "files": {
+    "ignore": ["**/client/.react-router/types/**/*.ts"]
+  },
   "linter": {
     "enabled": true,
     "rules": {
