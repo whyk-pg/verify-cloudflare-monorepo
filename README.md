@@ -7,7 +7,7 @@
 クライアントとサーバーをできるだけCloudflare Stackで構築してみたい
 
 ## 本リポジトリの達成目標
-- [ ] クライアントとサーバーをCloudflare Workersプロジェクトして初期化
+- [x] クライアントとサーバーをCloudflare Workersプロジェクトして初期化
 - [ ] クライアントにサーバーのService Bindingsを設定
   - [ ] Service Bindings設定時のCORSを確認
 - [ ] サーバーとCloudflare D1をPrismaで繋ぎ込み
